@@ -1,0 +1,35 @@
+{
+  "name": "passwordless-sms",
+  "version": "1.0.0",
+  "description": "easily integrate sms into your passwordless app",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets es2015 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuthJet/passwordless-sms.git"
+  },
+  "keywords": [
+    "passwordless",
+    "sms",
+    "authjet"
+  ],
+  "author": "Eric Wyne <ecwyne@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AuthJet/passwordless-sms/issues"
+  },
+  "homepage": "https://github.com/AuthJet/passwordless-sms#readme",
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "passwordless-authjetstore": "^1.0.1",
+    "random-gen": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  }
+}
